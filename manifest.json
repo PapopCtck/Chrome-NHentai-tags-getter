@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "NH tags getter",
+  "version": "0.1.0",
+  "description": "Well, i kinda needed this. so why not.",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {},
+  "permissions": ["contextMenus","clipboardWrite", "activeTab"]
+}
